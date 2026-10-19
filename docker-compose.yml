@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: kali-yerzat-container
+    environment:
+      - STUDENT_NAME=Yerzat
+      - STUDENT_SURNAME=Kali
+      - STUDENT_GROUP=IT2-2301
+      - STUDENT_ID=38307
